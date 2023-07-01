@@ -142,7 +142,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     private void startCountdownTimer() {
-        countDownTimer = new CountDownTimer(60000, 1000) {
+        countDownTimer = new CountDownTimer(180000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 long minutes = millisUntilFinished / 60000;
